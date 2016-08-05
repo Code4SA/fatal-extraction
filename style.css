@@ -1,0 +1,33 @@
+html, body { margin:0; padding:0; overflow:hidden }
+svg { position:fixed; top:0; left:0; height:100%; width:100% }
+
+#infobox foreignObject {
+    overflow: hidden;
+}
+
+#infobox .body-text {
+    font-family: 'Helvetica';
+    font-size: 22px;
+}
+
+.story-country {
+    cursor: pointer;
+}
+
+.story-country:hover, .story-country.selected {
+    fill: #DE753A !important;
+}
+
+#country-paths path {
+    fill-opacity: 1;
+    stroke: #d0d4de;
+}
+
+#country-paths .story-country {
+    stroke-width: 1px;
+    stroke: black;
+}
+
+.pointer.hidden {
+    display: none;
+}
